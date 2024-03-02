@@ -1,3 +1,4 @@
+*Weather App*
 Prints major weather features at the specified latitude and longitude
 
 Environment variables:
