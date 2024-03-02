@@ -1,6 +1,6 @@
 # Weather App
 
-Prints major weather features at the specified latitude and longitude
+Prints major weather features at the specified latitude and longitude. Logs observations to .csv for future analysis.
 
 ## Environment variables:
 
