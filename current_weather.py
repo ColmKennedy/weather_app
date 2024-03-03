@@ -17,11 +17,13 @@ class CurrentWeather:
         self.sunset = sunset
 
     def print_weather(self):
+        print()
         print(self.dt.strftime('%Y-%m-%d %H:%M:%S %Z%z'))
-        print(f"Weather State: {self.weather}")
-        print(f"Temp: {self.temp}°C")
-        print(f"Wind Speed: {mps_to_kts(self.wind_speed)}kn")
-        print(f"Wind Direction: {self.wind_deg}°")
-        print(f"Visibility: {self.visibility}m")
-        print(f"Sunset: {self.sunset.strftime('%H:%M:%S')}")
+        print()
+        print(f"Weather State:      {self.weather}")
+        print(f"Temp:               {self.temp}°C")
+        print(f"Wind Speed:         {mps_to_kts(self.wind_speed)}kn")
+        print(f"Wind Direction:     {self.wind_deg}°")
+        print(f"Visibility:         {self.visibility}m")
+        print(f"Sunset:             {self.sunset.strftime('%H:%M:%S')}")
         print()
